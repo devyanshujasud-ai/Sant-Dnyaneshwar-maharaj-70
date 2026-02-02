@@ -6,7 +6,17 @@ An AI-powered risk scoring platform that helps financial institutions predict lo
 
 ## 📌 Problem Statement
 
-Traditional credit scoring lacks transparency and explainability. Manual risk assessment is time-consuming, error-prone, and struggles to meet regulatory compliance requirements. High default rates continue to impact profitability across the lending industry.
+Build a Risk Scoring Predictor that estimates the likelihood of an event (e.g., default risk, 
+dropout risk, incident risk, churn risk, eligibility risk—teams may choose a theme) using multiple 
+structured input factors. The goal is to demonstrate a complete classic machine learning 
+workflow on tabular data: creating a well-defined synthetic dataset, selecting meaningful 
+features, training a predictive model, evaluating performance, and interpreting the results. 
+Teams must generate their own dataset based on a clear schema (features + target label), 
+perform preprocessing (handling missing values, encoding, scaling if needed), train one or more 
+classic ML models (e.g., Logistic Regression, Decision Tree, Random Forest, XGBoost/GBM), and 
+produce an output as either a risk score (probability) or a class label (Low/Medium/High risk). 
+The system should also provide model interpretability (feature importance or explanation of why 
+a prediction was made) to support trust and decision-making.
 
 ## 💡 Our Solution
 
